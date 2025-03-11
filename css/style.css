@@ -1,12 +1,19 @@
 td, th {
 	border: 1px solid;
   text-align: center;
+  padding: 12px;
   }
+th {
+  background-color: #e94560; 
+  color: white; 
+  font-size: 18px;
+  text-transform: uppercase;
+}
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  background-color: #EE82EE;
-  color: #333;
+  background-color: #7a1fa2;
+  color: white;
   padding: 20px;
 }
 #page-header h1 {
@@ -33,3 +40,11 @@ table#planets {
     overflow: hidden;
 }
 
+tr:nth-child(even) {
+    background-color: #0f3460; 
+}
+
+tr:hover {
+    background-color: #53354a; 
+    transition: background 0.3s;
+}
