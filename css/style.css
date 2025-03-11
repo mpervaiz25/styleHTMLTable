@@ -23,4 +23,13 @@ td img {
     border-radius: 50%;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
+table#planets {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #16213e;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    overflow: hidden;
+}
 
