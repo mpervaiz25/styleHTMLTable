@@ -1,3 +1,11 @@
 td, th {
 	border: 1px solid;
   }
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #EE82EE;
+  color: #333;
+  padding: 20px;
+}
+
